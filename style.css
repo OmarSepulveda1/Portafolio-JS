@@ -5,8 +5,10 @@ body {
 
 .banner {
   height: 30vh;
-  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-    url('img/omar.jpg') center center/cover no-repeat;
+  background-image: url('https://lunia.es/wp-content/uploads/2024/10/servicios-informaticos-y-servicios-de-computacion.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .skill-icon {
