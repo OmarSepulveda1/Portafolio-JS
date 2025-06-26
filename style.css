@@ -1,0 +1,24 @@
+body {
+  padding-top: 56px;
+  font-family: Arial, sans-serif;
+}
+
+.banner {
+  height: 30vh;
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url('img/omar.jpg') center center/cover no-repeat;
+}
+
+.skill-icon {
+  width: 80px;
+  height: 80px;
+
+
+}
+
+@media (max-width: 768px) {
+  .skill-icon {
+    width: 60px;
+    height: 60px;
+  }
+}
